@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body,
 html {
     margin: 0;
 }
+
 
 nav {
     background-color: #C8A27A;
@@ -10,13 +14,13 @@ nav {
     justify-content: space-between;
     align-items: right;
     padding: 16px;
-
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: Montserrat;
 }
 
 nav img {
@@ -24,21 +28,21 @@ nav img {
     align-items: left;
 }
 
-nav ul {
+ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 16px;
     gap: 16px;
     color: black;
-
 }
 
 ul li {
     list-style: none;
     align-items: center;
-    justify-content: center;
-
-
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
 }
 
 header img {
@@ -66,11 +70,102 @@ header img {
     padding-bottom: 99%;
     width: 440px;
     height: 440px;
+}
 
+main {
+    background-color: gainsboro;
 }
 
 .content {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 3px;
+}
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.image-Mariage {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.celebration {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.praise {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+#promesse.ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    background-color: #C8A27A;
+}
+
+section {
+    background-color: #C8A27A;
+}
+
+
+
+.action {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: antiquewhite;
 }
